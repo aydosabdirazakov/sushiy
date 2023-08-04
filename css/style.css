@@ -1,0 +1,486 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1160px;
+    margin: 0px auto;
+}
+
+.header,
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+}
+
+li {
+    list-style: none;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.list {
+    list-style-image: url(./photo/maps-and-flags.png);
+    font-size: 14px;
+}
+
+.list1 {
+    list-style-image: url(./photo/envelope.png);
+    font-size: 14px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 124px;
+}
+
+.text_btn {
+    font-size: 11px;
+}
+
+.box3 {
+    width: 170px;
+    height: 40px;
+    border: 1px solid #1fba0a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #1fba0a;
+}
+.box3:hover{
+    width: 170px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #1fba0a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.block2 {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.block1 {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.block:hover {
+    color: white;
+    background-color: #84c604;
+}
+
+.block1:hover {
+    color: white;
+    background-color: #84c604;
+}
+
+.block2:hover {
+    color: white;
+    background-color: #84c604;
+}
+
+.user {
+    margin-right: 10px;
+}
+
+.image {
+    background-image: url(./photo/Карта\ градиента\ 784.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 676px;
+}
+
+.span_btn {
+    color: #84c604;
+    font-size: 100px;
+}
+
+.text {
+    width: 560px;
+    margin-top: 20px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 470px;
+}
+
+.day_btn {
+    color: white;
+    font-size: 26px;
+}
+
+.a_btn {
+    text-decoration: none;
+    color: white;
+    width: 245px;
+    height: 60px;
+    background-color: #fd4f10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    background-color: #d92024;
+    border-radius: 50%;
+    margin-left: 50%;
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div {
+    position: relative;
+}
+
+.href_btn {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tex_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.item {
+    width: 2px;
+    height: 444px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px gray;
+}
+
+.item_btn {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-left: 20px;
+}
+
+.location {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.location1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.items2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    width: 200px;
+}
+
+.rubl_btn {
+    font-size: 22px;
+}
+
+.one {
+    font-size: 18px;
+}
+
+.ddiv {
+    width: 145px;
+    height: 45px;
+    background-color: #fd4f10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.site_btn {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.ddiv1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.answer {
+    background-image: url(./photo/Прямоугольник\ 1350.png);
+    background-size: auto;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.texxt_btn {
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.new_btn1 {
+    color: #fd4f10;
+    cursor: pointer;
+}
+
+.new_btn {
+    color: #999999;
+    cursor: pointer;
+}
+
+.pointer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+}
+
+.display1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.iitem {
+    width: 214px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #949494;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxx {
+    width: 175px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.new_item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer{
+    width: 100%;
+    height: 360px;
+    background-image: url(./photo/pottery-3227903_1920.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form_btn1{
+    display: flex;
+    justify-content: start;
+}
+.form1{
+    color: white;
+    font-size: 20px;
+}
+.form_btn3{
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+}
+.tr{
+    outline: none;
+    background-color: transparent;
+    height: 50px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+    border-bottom: 2px solid white;
+    width: 240px;
+}
+::placeholder{
+color: #aeb1b4;  
+font-size: 14px; 
+}
+.tr:hover{
+    background-color: rgba(255, 255, 255, 0.561);
+}
+.tr1{
+    width: 195px;
+    height: 50px;
+    background-color: #fd4f10;
+    outline: none;
+    border: 2px solid #fd4f10;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.form2{
+    font-size: 13px;
+    color: white;
+}
+.foter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.mushi{
+    font-size: 31px;
+    color:  #4d6770;
+}
+.mushi1{
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.box_1{
+    width: 810px;
+    /* height: 600px; */
+}
+.box_2{
+    background-image: url(./photo/Карта\ градиента\ 785.png);
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 478px;
+}
+.wrapper{
+height: 415px;
+background-color: #1a2d34;
+margin-top: 10%;
+}
+.foter2{
+    color: white;
+    font-size: 14px;
+}
+li{
+    margin-top: 7px;
+}
+.foooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.color_btn{
+    color: #6b96a5;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 50%;
+    outline: none;
+    margin-left: 10px;
+}
+.slick-dots li.slick-active button{
+    width: 10px;
+    height: 10px;
+    background-color: #67b437;
+    border-radius: 50%;
+    border: 2px solid #67b437;
+}
